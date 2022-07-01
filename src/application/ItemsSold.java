@@ -21,7 +21,7 @@ public class ItemsSold{
 		
 		List<Products> list = new ArrayList<>();
 		
-		System.out.print("Enter the file path and file name with the extension: ");
+		System.out.print("Enter the full path of the source file and its extension: ");
 		String strFileSrc = sc.nextLine();
 		
 		File fileSrc = new File(strFileSrc);
@@ -37,7 +37,7 @@ public class ItemsSold{
 			System.out.println("The folder was not created.");
 		}
 		
-		System.out.print("Enter the file name and its extension: ");
+		System.out.print("Enter the output file name and its extension: ");
 		String newFile = sc.nextLine();
 		
 		String strDestinationFile = strFolderSrc + "/" + newFolder + "/" + newFile;
