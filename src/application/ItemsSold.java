@@ -21,7 +21,7 @@ public class ItemsSold{
 		
 		List<Products> list = new ArrayList<>();
 		
-		System.out.print("Enter the full path of the source file and its extension: ");
+		System.out.print("Enter the full path of the source file (.csv), its name and type: ");
 		String strFileSrc = sc.nextLine();
 		
 		File fileSrc = new File(strFileSrc);
